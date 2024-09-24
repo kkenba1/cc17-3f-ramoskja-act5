@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/artImageView"
+        android:layout_width="238dp"
+        android:layout_height="227dp"
+        android:contentDescription="Art image"
+        android:padding="10dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:background="#FFA4C5"
+        android:padding="10dp"
+        android:shadowColor="#3C1E1E"
+        android:text="Description"
+        android:textAlignment="center"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/prevButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFA4C5"
+            android:text="Previous"
+            android:textColor="#ede8d0" />
+
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="#FFA4C5"
+            android:text="Next"
+            android:textColor="#ede8d0" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
